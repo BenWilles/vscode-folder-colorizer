@@ -32,12 +32,6 @@
           "command": "folder-color.setColor"
         },
         {
-          "command": "folder-color.setBadge"
-        },
-        {
-          "command": "folder-color.setEmojiBadge"
-        },
-        {
           "command": "folder-color.clearColorizer"
         }
       ]
@@ -52,14 +46,6 @@
       {
         "command": "folder-color.setColor",
         "title": "Colorize"
-      },
-      {
-        "command": "folder-color.setBadge",
-        "title": "Set badge"
-      },
-      {
-        "command": "folder-color.setEmojiBadge",
-        "title": "Set EMOJI badge"
       },
       {
         "command": "folder-color.clearColorizer",

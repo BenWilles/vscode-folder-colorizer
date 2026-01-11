@@ -1,5 +1,4 @@
 import * as vscode from "vscode";
-import emoji from "./lists/emoji.json";
 import {
   checkIfItFirstTimeRun,
   getColorOptions,
@@ -80,60 +79,6 @@ const registerContextMenu = (context: vscode.ExtensionContext) => {
     }
   );
 
-  let setBadgeDisposable = vscode.commands.registerCommand(
-    "folder-color.setBadge",
-    function (_, context2: vscode.Uri[]) {
-      vscode.window
-        .showInputBox({
-          prompt: "Set folder badge",
-          placeHolder: "WS",
-          validateInput: (text: string): string | null => {
-            if (text.length > 2) {
-              return "Must be no more than 2 symbols";
-            }
-
-            return null;
-          },
-        })
-        .then((value) => {
-          if (!value) {
-            return;
-          }
-
-          changeConfig({
-            folderPath: context2.map((item) => userPathLessPath(item.fsPath)),
-            badge: value,
-          });
-        });
-    }
-  );
-
-  let setEmojiBadgeDisposable = vscode.commands.registerCommand(
-    "folder-color.setEmojiBadge",
-    function (_, context2: vscode.Uri[]) {
-      vscode.window
-        .showQuickPick(
-          emoji.map(({ description, emoji }) => ({
-            label: emoji,
-            description,
-          })),
-          {
-            placeHolder: "Choose emoji badge: ",
-          }
-        )
-        .then((selected) => {
-          if (!selected) {
-            return;
-          }
-
-          changeConfig({
-            folderPath: context2.map((item) => userPathLessPath(item.fsPath)),
-            badge: selected.label,
-          });
-        });
-    }
-  );
-
   let clearColorizerDisposable = vscode.commands.registerCommand(
     "folder-color.clearColorizer",
     function (_, context2: vscode.Uri[]) {
@@ -149,8 +94,6 @@ const registerContextMenu = (context: vscode.ExtensionContext) => {
   );
 
   context.subscriptions.push(setColorDisposable);
-  context.subscriptions.push(setBadgeDisposable);
-  context.subscriptions.push(setEmojiBadgeDisposable);
   context.subscriptions.push(clearColorizerDisposable);
 };
 
