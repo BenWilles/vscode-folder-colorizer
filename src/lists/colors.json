@@ -1,5 +1,155 @@
 [
   {
+    "id": "foldercolorizer.color_ff9999",
+    "defaults": {
+      "dark": "#ff9999",
+      "light": "#ff9999",
+      "highContrast": "#ff9999",
+      "highContrastLight": "#ff9999"
+    },
+    "description": "Light Salmon"
+  },
+  {
+    "id": "foldercolorizer.color_ffcccc",
+    "defaults": {
+      "dark": "#ffcccc",
+      "light": "#ffcccc",
+      "highContrast": "#ffcccc",
+      "highContrastLight": "#ffcccc"
+    },
+    "description": "Peach"
+  },
+  {
+    "id": "foldercolorizer.color_cc9999",
+    "defaults": {
+      "dark": "#cc9999",
+      "light": "#cc9999",
+      "highContrast": "#cc9999",
+      "highContrastLight": "#cc9999"
+    },
+    "description": "Rosy Brown"
+  },
+  {
+    "id": "foldercolorizer.color_ff9966",
+    "defaults": {
+      "dark": "#ff9966",
+      "light": "#ff9966",
+      "highContrast": "#ff9966",
+      "highContrastLight": "#ff9966"
+    },
+    "description": "Coral"
+  },
+  {
+    "id": "foldercolorizer.color_ffcc99",
+    "defaults": {
+      "dark": "#ffcc99",
+      "light": "#ffcc99",
+      "highContrast": "#ffcc99",
+      "highContrastLight": "#ffcc99"
+    },
+    "description": "Cream"
+  },
+  {
+    "id": "foldercolorizer.color_ffcc66",
+    "defaults": {
+      "dark": "#ffcc66",
+      "light": "#ffcc66",
+      "highContrast": "#ffcc66",
+      "highContrastLight": "#ffcc66"
+    },
+    "description": "Golden Yellow"
+  },
+  {
+    "id": "foldercolorizer.color_cccc99",
+    "defaults": {
+      "dark": "#cccc99",
+      "light": "#cccc99",
+      "highContrast": "#cccc99",
+      "highContrastLight": "#cccc99"
+    },
+    "description": "Butter Yellow"
+  },
+  {
+    "id": "foldercolorizer.color_ffff99",
+    "defaults": {
+      "dark": "#ffff99",
+      "light": "#ffff99",
+      "highContrast": "#ffff99",
+      "highContrastLight": "#ffff99"
+    },
+    "description": "Light Yellow"
+  },
+  {
+    "id": "foldercolorizer.color_ccff99",
+    "defaults": {
+      "dark": "#ccff99",
+      "light": "#ccff99",
+      "highContrast": "#ccff99",
+      "highContrastLight": "#ccff99"
+    },
+    "description": "Light Goldenrod"
+  },
+  {
+    "id": "foldercolorizer.color_99cc99",
+    "defaults": {
+      "dark": "#99cc99",
+      "light": "#99cc99",
+      "highContrast": "#99cc99",
+      "highContrastLight": "#99cc99"
+    },
+    "description": "Sage Green"
+  },
+  {
+    "id": "foldercolorizer.color_99ff99",
+    "defaults": {
+      "dark": "#99ff99",
+      "light": "#99ff99",
+      "highContrast": "#99ff99",
+      "highContrastLight": "#99ff99"
+    },
+    "description": "Pale Green"
+  },
+  {
+    "id": "foldercolorizer.color_99ffcc",
+    "defaults": {
+      "dark": "#99ffcc",
+      "light": "#99ffcc",
+      "highContrast": "#99ffcc",
+      "highContrastLight": "#99ffcc"
+    },
+    "description": "Light Aquamarine"
+  },
+  {
+    "id": "foldercolorizer.color_66ffcc",
+    "defaults": {
+      "dark": "#66ffcc",
+      "light": "#66ffcc",
+      "highContrast": "#66ffcc",
+      "highContrastLight": "#66ffcc"
+    },
+    "description": "Pale Aqua"
+  },
+  {
+    "id": "foldercolorizer.color_99cccc",
+    "defaults": {
+      "dark": "#99cccc",
+      "light": "#99cccc",
+      "highContrast": "#99cccc",
+      "highContrastLight": "#99cccc"
+    },
+    "description": "Powder Blue"
+  },
+  {
+    "id": "foldercolorizer.color_99ffff",
+    "defaults": {
+      "dark": "#99ffff",
+      "light": "#99ffff",
+      "highContrast": "#99ffff",
+      "highContrastLight": "#99ffff"
+    },
+    "description": "Pale Cyan"
+  },
+  {
     "id": "foldercolorizer.color_33ccff",
     "defaults": {
       "dark": "#33ccff",
@@ -30,26 +180,6 @@
     "description": "Light Sky Blue"
   },
   {
-    "id": "foldercolorizer.color_3399ff",
-    "defaults": {
-      "dark": "#3399ff",
-      "light": "#3399ff",
-      "highContrast": "#3399ff",
-      "highContrastLight": "#3399ff"
-    },
-    "description": "Sky Blue"
-  },
-  {
-    "id": "foldercolorizer.color_6699ff",
-    "defaults": {
-      "dark": "#6699ff",
-      "light": "#6699ff",
-      "highContrast": "#6699ff",
-      "highContrastLight": "#6699ff"
-    },
-    "description": "Cornflower Blue"
-  },
-  {
     "id": "foldercolorizer.color_9999ff",
     "defaults": {
       "dark": "#9999ff",
@@ -58,376 +188,6 @@
       "highContrastLight": "#9999ff"
     },
     "description": "Light Periwinkle"
-  },
-  {
-    "id": "foldercolorizer.color_6699cc",
-    "defaults": {
-      "dark": "#6699cc",
-      "light": "#6699cc",
-      "highContrast": "#6699cc",
-      "highContrastLight": "#6699cc"
-    },
-    "description": "Steel Blue"
-  },
-  {
-    "id": "foldercolorizer.color_33ffcc",
-    "defaults": {
-      "dark": "#33ffcc",
-      "light": "#33ffcc",
-      "highContrast": "#33ffcc",
-      "highContrastLight": "#33ffcc"
-    },
-    "description": "Light Aqua"
-  },
-  {
-    "id": "foldercolorizer.color_66ffcc",
-    "defaults": {
-      "dark": "#66ffcc",
-      "light": "#66ffcc",
-      "highContrast": "#66ffcc",
-      "highContrastLight": "#66ffcc"
-    },
-    "description": "Pale Aqua"
-  },
-  {
-    "id": "foldercolorizer.color_99ffcc",
-    "defaults": {
-      "dark": "#99ffcc",
-      "light": "#99ffcc",
-      "highContrast": "#99ffcc",
-      "highContrastLight": "#99ffcc"
-    },
-    "description": "Light Aquamarine"
-  },
-  {
-    "id": "foldercolorizer.color_66cccc",
-    "defaults": {
-      "dark": "#66cccc",
-      "light": "#66cccc",
-      "highContrast": "#66cccc",
-      "highContrastLight": "#66cccc"
-    },
-    "description": "Light Aqua"
-  },
-  {
-    "id": "foldercolorizer.color_99cccc",
-    "defaults": {
-      "dark": "#99cccc",
-      "light": "#99cccc",
-      "highContrast": "#99cccc",
-      "highContrastLight": "#99cccc"
-    },
-    "description": "Powder Blue"
-  },
-  {
-    "id": "foldercolorizer.color_99ffff",
-    "defaults": {
-      "dark": "#99ffff",
-      "light": "#99ffff",
-      "highContrast": "#99ffff",
-      "highContrastLight": "#99ffff"
-    },
-    "description": "Pale Cyan"
-  },
-  {
-    "id": "foldercolorizer.color_ccffff",
-    "defaults": {
-      "dark": "#ccffff",
-      "light": "#ccffff",
-      "highContrast": "#ccffff",
-      "highContrastLight": "#ccffff"
-    },
-    "description": "Light Cyan"
-  },
-  {
-    "id": "foldercolorizer.color_33ff99",
-    "defaults": {
-      "dark": "#33ff99",
-      "light": "#33ff99",
-      "highContrast": "#33ff99",
-      "highContrastLight": "#33ff99"
-    },
-    "description": "Spring Green"
-  },
-  {
-    "id": "foldercolorizer.color_66ff99",
-    "defaults": {
-      "dark": "#66ff99",
-      "light": "#66ff99",
-      "highContrast": "#66ff99",
-      "highContrastLight": "#66ff99"
-    },
-    "description": "Mint Green"
-  },
-  {
-    "id": "foldercolorizer.color_99ff99",
-    "defaults": {
-      "dark": "#99ff99",
-      "light": "#99ff99",
-      "highContrast": "#99ff99",
-      "highContrastLight": "#99ff99"
-    },
-    "description": "Pale Green"
-  },
-  {
-    "id": "foldercolorizer.color_99ff66",
-    "defaults": {
-      "dark": "#99ff66",
-      "light": "#99ff66",
-      "highContrast": "#99ff66",
-      "highContrastLight": "#99ff66"
-    },
-    "description": "Spring Green"
-  },
-  {
-    "id": "foldercolorizer.color_66cc99",
-    "defaults": {
-      "dark": "#66cc99",
-      "light": "#66cc99",
-      "highContrast": "#66cc99",
-      "highContrastLight": "#66cc99"
-    },
-    "description": "Sea Green"
-  },
-  {
-    "id": "foldercolorizer.color_99cc99",
-    "defaults": {
-      "dark": "#99cc99",
-      "light": "#99cc99",
-      "highContrast": "#99cc99",
-      "highContrastLight": "#99cc99"
-    },
-    "description": "Pale Green"
-  },
-  {
-    "id": "foldercolorizer.color_99cc66",
-    "defaults": {
-      "dark": "#99cc66",
-      "light": "#99cc66",
-      "highContrast": "#99cc66",
-      "highContrastLight": "#99cc66"
-    },
-    "description": "Pastel Green"
-  },
-  {
-    "id": "foldercolorizer.color_ccff99",
-    "defaults": {
-      "dark": "#ccff99",
-      "light": "#ccff99",
-      "highContrast": "#ccff99",
-      "highContrastLight": "#ccff99"
-    },
-    "description": "Light Goldenrod"
-  },
-  {
-    "id": "foldercolorizer.color_ccffcc",
-    "defaults": {
-      "dark": "#ccffcc",
-      "light": "#ccffcc",
-      "highContrast": "#ccffcc",
-      "highContrastLight": "#ccffcc"
-    },
-    "description": "Pale Green"
-  },
-  {
-    "id": "foldercolorizer.color_ccff66",
-    "defaults": {
-      "dark": "#ccff66",
-      "light": "#ccff66",
-      "highContrast": "#ccff66",
-      "highContrastLight": "#ccff66"
-    },
-    "description": "Pale Goldenrod"
-  },
-  {
-    "id": "foldercolorizer.color_cccc66",
-    "defaults": {
-      "dark": "#cccc66",
-      "light": "#cccc66",
-      "highContrast": "#cccc66",
-      "highContrastLight": "#cccc66"
-    },
-    "description": "Light Yellow"
-  },
-  {
-    "id": "foldercolorizer.color_cccc99",
-    "defaults": {
-      "dark": "#cccc99",
-      "light": "#cccc99",
-      "highContrast": "#cccc99",
-      "highContrastLight": "#cccc99"
-    },
-    "description": "Butter Yellow"
-  },
-  {
-    "id": "foldercolorizer.color_ffcc66",
-    "defaults": {
-      "dark": "#ffcc66",
-      "light": "#ffcc66",
-      "highContrast": "#ffcc66",
-      "highContrastLight": "#ffcc66"
-    },
-    "description": "Golden Yellow"
-  },
-  {
-    "id": "foldercolorizer.color_ffcc99",
-    "defaults": {
-      "dark": "#ffcc99",
-      "light": "#ffcc99",
-      "highContrast": "#ffcc99",
-      "highContrastLight": "#ffcc99"
-    },
-    "description": "Cream"
-  },
-  {
-    "id": "foldercolorizer.color_ffff99",
-    "defaults": {
-      "dark": "#ffff99",
-      "light": "#ffff99",
-      "highContrast": "#ffff99",
-      "highContrastLight": "#ffff99"
-    },
-    "description": "Light Yellow"
-  },
-  {
-    "id": "foldercolorizer.color_ffffcc",
-    "defaults": {
-      "dark": "#ffffcc",
-      "light": "#ffffcc",
-      "highContrast": "#ffffcc",
-      "highContrastLight": "#ffffcc"
-    },
-    "description": "Cream"
-  },
-  {
-    "id": "foldercolorizer.color_ffcc33",
-    "defaults": {
-      "dark": "#ffcc33",
-      "light": "#ffcc33",
-      "highContrast": "#ffcc33",
-      "highContrastLight": "#ffcc33"
-    },
-    "description": "Sunshine Yellow"
-  },
-  {
-    "id": "foldercolorizer.color_ff9966",
-    "defaults": {
-      "dark": "#ff9966",
-      "light": "#ff9966",
-      "highContrast": "#ff9966",
-      "highContrastLight": "#ff9966"
-    },
-    "description": "Coral"
-  },
-  {
-    "id": "foldercolorizer.color_ff9933",
-    "defaults": {
-      "dark": "#ff9933",
-      "light": "#ff9933",
-      "highContrast": "#ff9933",
-      "highContrastLight": "#ff9933"
-    },
-    "description": "Mango"
-  },
-  {
-    "id": "foldercolorizer.color_ffcccc",
-    "defaults": {
-      "dark": "#ffcccc",
-      "light": "#ffcccc",
-      "highContrast": "#ffcccc",
-      "highContrastLight": "#ffcccc"
-    },
-    "description": "Peach"
-  },
-  {
-    "id": "foldercolorizer.color_ff9999",
-    "defaults": {
-      "dark": "#ff9999",
-      "light": "#ff9999",
-      "highContrast": "#ff9999",
-      "highContrastLight": "#ff9999"
-    },
-    "description": "Light Salmon"
-  },
-  {
-    "id": "foldercolorizer.color_ff99cc",
-    "defaults": {
-      "dark": "#ff99cc",
-      "light": "#ff99cc",
-      "highContrast": "#ff99cc",
-      "highContrastLight": "#ff99cc"
-    },
-    "description": "Light Pink"
-  },
-  {
-    "id": "foldercolorizer.color_ff6699",
-    "defaults": {
-      "dark": "#ff6699",
-      "light": "#ff6699",
-      "highContrast": "#ff6699",
-      "highContrastLight": "#ff6699"
-    },
-    "description": "Hot Pink"
-  },
-  {
-    "id": "foldercolorizer.color_cc6699",
-    "defaults": {
-      "dark": "#cc6699",
-      "light": "#cc6699",
-      "highContrast": "#cc6699",
-      "highContrastLight": "#cc6699"
-    },
-    "description": "Dusty Rose"
-  },
-  {
-    "id": "foldercolorizer.color_cc9999",
-    "defaults": {
-      "dark": "#cc9999",
-      "light": "#cc9999",
-      "highContrast": "#cc9999",
-      "highContrastLight": "#cc9999"
-    },
-    "description": "Rosy Brown"
-  },
-  {
-    "id": "foldercolorizer.color_9999cc",
-    "defaults": {
-      "dark": "#9999cc",
-      "light": "#9999cc",
-      "highContrast": "#9999cc",
-      "highContrastLight": "#9999cc"
-    },
-    "description": "Light Slate Blue"
-  },
-  {
-    "id": "foldercolorizer.color_cc99cc",
-    "defaults": {
-      "dark": "#cc99cc",
-      "light": "#cc99cc",
-      "highContrast": "#cc99cc",
-      "highContrastLight": "#cc99cc"
-    },
-    "description": "Light Orchid"
-  },
-  {
-    "id": "foldercolorizer.color_cc99ff",
-    "defaults": {
-      "dark": "#cc99ff",
-      "light": "#cc99ff",
-      "highContrast": "#cc99ff",
-      "highContrastLight": "#cc99ff"
-    },
-    "description": "Light Purple"
-  },
-  {
-    "id": "foldercolorizer.color_cc66ff",
-    "defaults": {
-      "dark": "#cc66ff",
-      "light": "#cc66ff",
-      "highContrast": "#cc66ff",
-      "highContrastLight": "#cc66ff"
-    },
-    "description": "Medium Purple"
   },
   {
     "id": "foldercolorizer.color_ccccff",
@@ -440,6 +200,26 @@
     "description": "Lavender"
   },
   {
+    "id": "foldercolorizer.color_cc99ff",
+    "defaults": {
+      "dark": "#cc99ff",
+      "light": "#cc99ff",
+      "highContrast": "#cc99ff",
+      "highContrastLight": "#cc99ff"
+    },
+    "description": "Light Purple"
+  },
+  {
+    "id": "foldercolorizer.color_cc99cc",
+    "defaults": {
+      "dark": "#cc99cc",
+      "light": "#cc99cc",
+      "highContrast": "#cc99cc",
+      "highContrastLight": "#cc99cc"
+    },
+    "description": "Light Orchid"
+  },
+  {
     "id": "foldercolorizer.color_ff99ff",
     "defaults": {
       "dark": "#ff99ff",
@@ -450,34 +230,14 @@
     "description": "Light Magenta"
   },
   {
-    "id": "foldercolorizer.color_ffccff",
+    "id": "foldercolorizer.color_ff99cc",
     "defaults": {
-      "dark": "#ffccff",
-      "light": "#ffccff",
-      "highContrast": "#ffccff",
-      "highContrastLight": "#ffccff"
+      "dark": "#ff99cc",
+      "light": "#ff99cc",
+      "highContrast": "#ff99cc",
+      "highContrastLight": "#ff99cc"
     },
-    "description": "Pink"
-  },
-  {
-    "id": "foldercolorizer.color_ff66cc",
-    "defaults": {
-      "dark": "#ff66cc",
-      "light": "#ff66cc",
-      "highContrast": "#ff66cc",
-      "highContrastLight": "#ff66cc"
-    },
-    "description": "Light Violet"
-  },
-  {
-    "id": "foldercolorizer.color_cc66cc",
-    "defaults": {
-      "dark": "#cc66cc",
-      "light": "#cc66cc",
-      "highContrast": "#cc66cc",
-      "highContrastLight": "#cc66cc"
-    },
-    "description": "Medium Orchid"
+    "description": "Light Pink"
   },
   {
     "id": "foldercolorizer.color_555555",

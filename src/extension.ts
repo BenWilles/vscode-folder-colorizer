@@ -61,11 +61,25 @@ const registerContextMenu = (context: vscode.ExtensionContext) => {
     "folder-color.setColor",
     (_, context2: vscode.Uri[]) => {
       const colorOptions = getColorOptions(context);
+      const pathColors = getPathColors();
       
-      // Add "Clear color" option at the top
+      // Get current color of the first selected folder
+      const firstFolderPath = context2[0] ? userPathLessPath(context2[0].fsPath) : "";
+      const currentColorEntry = pathColors.find(item => item.folderPath === firstFolderPath);
+      const currentColorId = currentColorEntry?.color;
+      
+      // Find the color name from colorOptions
+      let currentColorName = "";
+      if (currentColorId) {
+        const colorOption = colorOptions.find(opt => opt.description === currentColorId);
+        currentColorName = colorOption?.label || currentColorId.replace("foldercolorizer.color_", "#");
+      }
+      
+      // Add "Clear color" option at the top with current color info
       const clearOption: vscode.QuickPickItem = {
         label: "$(close) Clear color",
         description: "CLEAR_COLOR",
+        detail: currentColorName ? `Current: ${currentColorName}` : "No color set",
       };
       
       const options = [clearOption, ...colorOptions];
