@@ -24,24 +24,10 @@
     "menus": {
       "explorer/context": [
         {
-          "submenu": "folderColorizer"
-        }
-      ],
-      "folderColorizer": [
-        {
           "command": "folder-color.setColor"
-        },
-        {
-          "command": "folder-color.clearColorizer"
         }
       ]
     },
-    "submenus": [
-      {
-        "id": "folderColorizer",
-        "label": "Folder Colorizer"
-      }
-    ],
     "commands": [
       {
         "command": "folder-color.setColor",

@@ -60,21 +60,40 @@ const registerContextMenu = (context: vscode.ExtensionContext) => {
   let setColorDisposable = vscode.commands.registerCommand(
     "folder-color.setColor",
     (_, context2: vscode.Uri[]) => {
-      const options = getColorOptions(context);
+      const colorOptions = getColorOptions(context);
+      
+      // Add "Clear color" option at the top
+      const clearOption: vscode.QuickPickItem = {
+        label: "$(close) Clear color",
+        description: "CLEAR_COLOR",
+      };
+      
+      const options = [clearOption, ...colorOptions];
 
       vscode.window
         .showQuickPick(options, {
-          placeHolder: "Choose a color: ",
+          placeHolder: "Choose a color or clear existing color: ",
         })
         .then((selected) => {
           if (!selected) {
             return;
           }
 
-          changeConfig({
-            folderPath: context2.map((item) => userPathLessPath(item.fsPath)),
-            color: selected.description,
-          });
+          if (selected.description === "CLEAR_COLOR") {
+            // Clear the color
+            changeConfig(
+              {
+                folderPath: context2.map((item) => userPathLessPath(item.fsPath)),
+              },
+              true
+            );
+          } else {
+            // Set the color
+            changeConfig({
+              folderPath: context2.map((item) => userPathLessPath(item.fsPath)),
+              color: selected.description,
+            });
+          }
         });
     }
   );
