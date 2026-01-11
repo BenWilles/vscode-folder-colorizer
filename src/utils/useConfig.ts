@@ -2,7 +2,7 @@ import * as vscode from "vscode";
 import { PathColors } from "../types";
 
 export function getConfig() {
-  return vscode.workspace.getConfiguration("folder-color");
+  return vscode.workspace.getConfiguration("vs-rainbow-folders");
 }
 
 export function getPathColors() {

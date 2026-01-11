@@ -1,6 +1,5 @@
 import * as vscode from "vscode";
 import {
-  checkIfItFirstTimeRun,
   getColorOptions,
   getPathColors,
   getUpdatedPathColors,
@@ -29,18 +28,14 @@ const colorize = () => {
         .filter((item) => projectPath.includes(item.folderPath))
         .sort((a, b) => b.folderPath.length - a.folderPath.length);
 
-      const bestFit = matchingPaths[0];
       const bestFitColor = matchingPaths.find((item) => item.color)?.color;
-      const bestFitBadge = matchingPaths.find((item) => item.badge)?.badge;
 
       const newColor = bestFitColor
         ? new vscode.ThemeColor(bestFitColor)
         : undefined;
 
-      const newBadge = bestFitBadge ? bestFitBadge : undefined;
-
-      if (bestFit) {
-        return new vscode.FileDecoration(newBadge, "", newColor);
+      if (newColor) {
+        return new vscode.FileDecoration(undefined, undefined, newColor);
       }
 
       return new vscode.FileDecoration();
@@ -58,7 +53,7 @@ const changeConfig = (pathColor: Partial<PathsColors>, toRemove = false) => {
 
 const registerContextMenu = (context: vscode.ExtensionContext) => {
   let setColorDisposable = vscode.commands.registerCommand(
-    "folder-color.setColor",
+    "vs-rainbow-folders.setColor",
     (_, context2: vscode.Uri[]) => {
       const colorOptions = getColorOptions(context);
       const pathColors = getPathColors();
@@ -112,26 +107,10 @@ const registerContextMenu = (context: vscode.ExtensionContext) => {
     }
   );
 
-  let clearColorizerDisposable = vscode.commands.registerCommand(
-    "folder-color.clearColorizer",
-    function (_, context2: vscode.Uri[]) {
-      vscode.window;
-
-      changeConfig(
-        {
-          folderPath: context2.map((item) => userPathLessPath(item.fsPath)),
-        },
-        true
-      );
-    }
-  );
-
   context.subscriptions.push(setColorDisposable);
-  context.subscriptions.push(clearColorizerDisposable);
 };
 
 export function activate(context: vscode.ExtensionContext) {
-  checkIfItFirstTimeRun(context);
   const workspace = vscode?.workspace?.workspaceFolders?.[0];
 
   if (!workspace) {
@@ -142,7 +121,7 @@ export function activate(context: vscode.ExtensionContext) {
   colorize();
 
   vscode.workspace.onDidChangeConfiguration((event) => {
-    if (event.affectsConfiguration("folder-color.pathColors")) {
+    if (event.affectsConfiguration("vs-rainbow-folders.pathColors")) {
       colorize();
     }
   });

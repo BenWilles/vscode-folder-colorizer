@@ -17,12 +17,10 @@ export const getUpdatedPathColors = (
       pathColors.splice(index, 1);
     } else if (existingPath) {
       existingPath.color = pathColor.color || existingPath.color;
-      existingPath.badge = pathColor.badge || existingPath.badge;
     } else {
       pathColors.push({
         folderPath: pathItem,
         ...(pathColor.color && { color: pathColor.color }),
-        ...(pathColor.badge && { badge: pathColor.badge }),
       });
     }
   });

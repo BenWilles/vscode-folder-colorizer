@@ -1,6 +1,8 @@
-Copyright (c) <2023> <SergeyEgorov>
+Copyright (c) 2023 Sergey Egorov
+Copyright (c) 2026 Ben Willes
 
-https://github.com/egorovsa/vscode-folder-colorizer
+Original: https://github.com/egorovsa/vscode-folder-colorizer
+Fork: https://github.com/BenWilles/vs-rainbow-folders
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
